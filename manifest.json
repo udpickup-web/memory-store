@@ -591,6 +591,20 @@
         "ids": [
           "mem.test.2025-09-29"
         ]
+      },
+      {
+        "src": "out\\plain\\memory_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\memory\\2025-09-29T100033Z__memory_2025-09-29_demo.jsonl.enc",
+        "sha256": "9cea687c186474f9f9af6a220548ade3486ae8995fb604c69eb2fc071fd36e5c",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\memory_2025-09-29_test.jsonl",
+        "enc": "encrypted\\memory\\2025-09-29T100033Z__memory_2025-09-29_test.jsonl.enc",
+        "sha256": "ab21f022cc1b01aa4599b2131705e12c8adc2ccbb1c91e012bf61f3fb995a8c4",
+        "ids": [
+          "mem.test.2025-09-29"
+        ]
       }
     ],
     "instructions": [
@@ -869,11 +883,17 @@
         "enc": "encrypted\\instructions\\2025-09-29T095830Z__instr_2025-09-29_demo.jsonl.enc",
         "sha256": "32e53e36c13ba3fc6d833d92332405069c84256d8a618725f95975c388757087",
         "ids": []
+      },
+      {
+        "src": "out\\plain\\instr_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\instructions\\2025-09-29T100033Z__instr_2025-09-29_demo.jsonl.enc",
+        "sha256": "2dac671f5502b7f0b2baf036f46fcc29435961ba1fd42f63fdc41106724c374f",
+        "ids": []
       }
     ]
   },
   "latest_commit": null,
-  "checksum": "0d55b82e5ad4fdbfb1cab2a69ba5cbc1868d18d133ce629a95e3de908cf48124",
+  "checksum": "41b34c0f1ea400f6b965073cff6f2666db30d9ad637f03cf651428b0bfa3d4e3",
   "notes": "Only ciphertexts go to Git.",
-  "updated_at": "2025-09-29T09:58:30Z"
+  "updated_at": "2025-09-29T10:00:33Z"
 }
