@@ -1,13 +1,8 @@
-/out/
-/.env
-/__pycache__/
-/tools/tmp/
-/*.tmp
-*.pyc
-*.pyo
-*.pyd
-/tools/
-/scripts/
-/templates/
-*.bat
-*.py
+# Игнорировать всё по умолчанию
+/*
+
+# Разрешить только эти файлы и папки
+!/encrypted/
+!/manifest.json
+!/.gitignore
+!/README.md
