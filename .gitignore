@@ -6,3 +6,8 @@
 *.pyc
 *.pyo
 *.pyd
+/tools/
+/scripts/
+/templates/
+*.bat
+*.py

@@ -1,5 +1,0 @@
-[SYNC_HEADER]
-date: 2025-09-29T12:00:00+03:00
-protocol_version: 2.3
-memory_checksum: <sha256>
-groups: [MEMORY_UPDATES, INSTRUCTIONS_UPDATES]
