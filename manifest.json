@@ -1,0 +1,139 @@
+{
+  "manifest_version": "1.0",
+  "created_at": "2025-09-29T07:54:11Z",
+  "protocol_version": "2.3",
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "key_id": "master-key-v1",
+    "nonce_bytes": 12,
+    "ciphertext_encoding": "base64",
+    "prefix": "V1"
+  },
+  "core_set": [
+    "SUPER-IMPORTANT/Interaction.v2.3",
+    "SUPER-IMPORTANT/EncryptionProtocol.v1",
+    "SUPER-IMPORTANT/MirrorsAndFallback.v1",
+    "SUPER-IMPORTANT/Anti-Drift.v1",
+    "SUPER-IMPORTANT/NamingPaths.v1",
+    "SUPER-IMPORTANT/ErrorBase.v1",
+    "SUPER-IMPORTANT/SecurityChecklists.v1"
+  ],
+  "snapshots": {
+    "memory": [
+      {
+        "src": "out\\plain\\memory_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\memory\\2025-09-29T082422Z__memory_2025-09-29_demo.jsonl.enc",
+        "sha256": "3d622f0714d466f34232b3cb4315c8a1df05eb7d972257d98e62bac7ace07322",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\memory_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\memory\\2025-09-29T083112Z__memory_2025-09-29_demo.jsonl.enc",
+        "sha256": "916c38e684d7a658af9c1509fcea9d1d7fcbd60593f897d223110e27803c4939",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\memory_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\memory\\2025-09-29T083251Z__memory_2025-09-29_demo.jsonl.enc",
+        "sha256": "9c87f33eb1a094eae62f9af77fba0c54f0aa3a401faddbdd32152881b7e4498a",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\memory_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\memory\\2025-09-29T083452Z__memory_2025-09-29_demo.jsonl.enc",
+        "sha256": "164a81ccaebac95e6c4352714e12350e1b8772dc2776a2575c94786e2ce3c084",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\memory_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\memory\\2025-09-29T083652Z__memory_2025-09-29_demo.jsonl.enc",
+        "sha256": "241c4d58152cd50e3d9ebf14c367be66d2ba402b017f14466e521f6c5105be8e",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\memory_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\memory\\2025-09-29T083852Z__memory_2025-09-29_demo.jsonl.enc",
+        "sha256": "9ce512500d80c7575b00728c28f4ca5dde69f5993b434fc6dce5789722471b33",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\memory_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\memory\\2025-09-29T084052Z__memory_2025-09-29_demo.jsonl.enc",
+        "sha256": "97343c99921b540a5043e23a80a02ffce6bb340a1f7e80c082666295ffc56d2e",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\memory_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\memory\\2025-09-29T084252Z__memory_2025-09-29_demo.jsonl.enc",
+        "sha256": "600a45edc83a9251bdc6285984f0dbe5bbb727b9717e847a471a62a27f1850d2",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\memory_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\memory\\2025-09-29T084452Z__memory_2025-09-29_demo.jsonl.enc",
+        "sha256": "f6ffabbc57d81697dd1c90e5ad3232e9e06c559882b8844bf54cfdacd36cb126",
+        "ids": []
+      }
+    ],
+    "instructions": [
+      {
+        "src": "out\\plain\\instr_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\instructions\\2025-09-29T082422Z__instr_2025-09-29_demo.jsonl.enc",
+        "sha256": "97d2612e273642f3148e7d9646b39946061b8c724a39fc92d42df3409dd7e700",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\instr_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\instructions\\2025-09-29T083112Z__instr_2025-09-29_demo.jsonl.enc",
+        "sha256": "ef60147a3f0c2671d37b7de730957b09ae4babbfdee5c147d4c5c4667a094c01",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\instr_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\instructions\\2025-09-29T083251Z__instr_2025-09-29_demo.jsonl.enc",
+        "sha256": "71a4a529f58552cc3db6a1d4057622c297dac264ee20310ebfdc4002232f32e3",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\instr_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\instructions\\2025-09-29T083452Z__instr_2025-09-29_demo.jsonl.enc",
+        "sha256": "96e459ea1791e87e91218cfbbb44911c34568e72f729a309d286722e4d81f37f",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\instr_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\instructions\\2025-09-29T083652Z__instr_2025-09-29_demo.jsonl.enc",
+        "sha256": "c68f14a145c7ecb01b3bba299b1751b24a6ca45bf0945a740e23287a991192c2",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\instr_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\instructions\\2025-09-29T083852Z__instr_2025-09-29_demo.jsonl.enc",
+        "sha256": "be5a506016126cd057c6efc18e7eca90e10ea16eb2be2f36b6f1fe2161ddc634",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\instr_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\instructions\\2025-09-29T084052Z__instr_2025-09-29_demo.jsonl.enc",
+        "sha256": "d27bb4fd976d697adda373bb3458aa0bed11b63901f022a2323aaedd6ab0e5a7",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\instr_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\instructions\\2025-09-29T084252Z__instr_2025-09-29_demo.jsonl.enc",
+        "sha256": "d3eec4531f6587e57c95e79938a166b1c70e0c3ef04a88b28e74bc171306e81a",
+        "ids": []
+      },
+      {
+        "src": "out\\plain\\instr_2025-09-29_demo.jsonl",
+        "enc": "encrypted\\instructions\\2025-09-29T084452Z__instr_2025-09-29_demo.jsonl.enc",
+        "sha256": "40d71c263e35d4359798e935758ffe638a6a28ce1ecbdb382768b099fe8a373a",
+        "ids": []
+      }
+    ]
+  },
+  "latest_commit": null,
+  "checksum": "78ca630e2fd291a9697e7f24a32e941c7543c395e4d92f7f4252ba444d0009e4",
+  "notes": "Only ciphertexts go to Git.",
+  "updated_at": "2025-09-29T08:44:52Z"
+}
